@@ -79,7 +79,7 @@ def predict():
     # Vectorize
     vector_input = tfidf.transform([transformed_sms])
 
-    # Predict
+    # git push -u origin main
     result = model.predict(vector_input)[0]
 
     # Show result
